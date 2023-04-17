@@ -6,4 +6,4 @@ buildPDF:
     - make
   artifacts:
     paths:
-      - "*.pdf*"
+      - "*.pdf"

@@ -24,4 +24,13 @@ or using the live preview
 
     make preview-talk
 
-while writing your slides!
+while writing your slides in `talk.tex`!
+
+You might want to consider the [PDF presenter console](https://pdfpc.github.io/)
+for your presentation:
+
+    make pdfpc-talk
+
+For more information what the `Makefile` can do for you, run
+
+    make help
