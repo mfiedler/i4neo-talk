@@ -1,0 +1,9 @@
+buildPDF:
+  image: inf4/neo
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  script:
+    - make
+  artifacts:
+    paths:
+      - "*.pdf*"
