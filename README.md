@@ -11,10 +11,17 @@ Make sure to checkout the submodule as well, for example by using
 
     git clone --recursive https://gitlab.cs.fau.de/i4/tex/i4neo-talk.git
 
-Build this using
+Maybe you want to update to the latest version of the theme with
+
+    cd i4neo-talk
+    git submodule update --remote
+
+Build this by running
 
     make
 
-or using live preview
+or using the live preview
 
     make preview-talk
+
+while writing your slides!
